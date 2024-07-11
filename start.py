@@ -8,6 +8,12 @@ quest = random.randint(chooseMin, chooseMax) * random.randint(chooseMin, chooseM
 
 print("MATH: ", quest)
 
-
-if isinstance(, int) :
+kq = input("The result is ")
+if isinstance(kq, int) :
+  if kq == quest:
+    echo("Oh my God, you have successfully solved a difficult problem!")
+  else:
+    echo("Too bad you answered wrong, try again next time!") 
+else:
+  echo("The result must be an integer") 
   
