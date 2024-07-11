@@ -1,2 +1,2 @@
 # HardMath
-Python math minigame
+Python math minigame.
