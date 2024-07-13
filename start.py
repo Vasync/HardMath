@@ -19,9 +19,10 @@ c = random.randint(chooseMin, chooseMax)
 d = random.randint(chooseMin, chooseMax)
 e = random.randint(chooseMin, chooseMax)
 
+quest_str = a,' × ',b,' ÷ ',c,' + ',d,' + ',e
 quest = a * b / c + d + e
 
-print("MATH: ", quest)
+print("MATH: ", quest_str)
 
 # Get user's answer and validate if it's an integer
 kq = input("The result is: ")
